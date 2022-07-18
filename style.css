@@ -1,0 +1,87 @@
+body {background-color:rgb(250, 234, 205);}
+
+form {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color:rgb(250, 216, 174);
+}
+
+.title {
+    background-color:darkorange;
+    font-style: italic;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size:50px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    background-color:darkorange;
+    color:black;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-style: italic;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size:25px;
+    text-align: center;
+}
+
+#phoneBook{
+    display: block;
+    width: 50%;
+    background-color:coral;
+    padding: 10px 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 10px;
+} 
+
+#error{
+    display: none;
+    width: 50%;
+    background-color:crimson;
+    padding: 10px 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 5px;
+} 
+
+#hello {
+    background-color:bisque;
+    font-style: italic;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size:30px;
+
+}
+
+#hideAddForm, #hideFilterForm, #hideEditForm{
+    width: 30%;
+    background-color:burlywood;
+    display: none;
+    padding: 10px 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.addButton {
+    border-radius: 10px;
+    background-color:darkorange;
+    color:black;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.input {
+    width: 30%;
+    background-color:beige;
+    padding: 10px 20px;
+    border: 50%;
+    border-radius: 10px;
+}
